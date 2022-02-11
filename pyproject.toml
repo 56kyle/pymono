@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "A library that enables accessing unity mono runtimes using python"
 authors = ["Kyle Oliver <56kyleoliver@gmail.com>"]
 maintainers = ["Kyle Oliver <56kyleoliver@gmail.com>"]
-readme = "README.md"
+readme = "README.rst"
 license = "GPL-3.0-or-later"
 classifiers = [
     "Development Status :: 3 - Alpha",
@@ -22,6 +22,7 @@ Pymem = "^1.8.5"
 frida-tools = "^10.5.4"
 
 [tool.poetry.dev-dependencies]
+Sphinx = "^4.4.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

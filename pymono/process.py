@@ -10,17 +10,8 @@ class Process:
     """A class that represents a running process"""
     session: Session
 
-    def __init__(self, ):
+    def __init__(self, session: Session):
         self.session: Session = session
-        pymem.Pymem.
+        self.pid =
 
-    @classmethod
-    def attach(cls, pid):
-        """Attach to a process"""
-        return cls(frida.attach(pid), pid)
-
-    @classmethod
-    def spawn(cls, path, **kwargs):
-        """Spawn a process"""
-        return cls(frida.spawn(path, **kwargs))
 
