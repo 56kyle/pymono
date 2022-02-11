@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "pymono"
+version = "0.1.0"
+description = "A library that enables accessing unity mono runtimes using python"
+authors = ["Kyle Oliver <56kyleoliver@gmail.com>"]
+maintainers = ["Kyle Oliver <56kyleoliver@gmail.com>"]
+readme = "README.md"
+license = "GPL-3.0-or-later"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Programming Language :: Python :: 3"
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^7.0.0"
+pytest-cov = "^3.0.0"
+frida = "^15.1.17"
+Pymem = "^1.8.5"
+frida-tools = "^10.5.4"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
